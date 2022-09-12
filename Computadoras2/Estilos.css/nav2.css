@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif ;
+}
+nav {
+    background: #2e4ead;
+    height: 100px;
+    width: 100%;
+    padding: bottom 15px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li {
+    display: inline-block;
+    line-height:  80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 7px 13px;
+}
+
+
+/* a.active,a:hover { 
+    background: #19bff1 ;
+    transition: .5s;
+    
+} */
